@@ -135,6 +135,16 @@ Program zapisuje ustawienia w `lab_view_settings.json` obok `Lab_view.exe`: tryb
 
 ---
 
+## Wsparcie projektu
+
+Jeśli gra Ci się podoba i chcesz wesprzeć jej dalszy rozwój, możesz postawić mi wirtualną kawę:
+
+<a href="https://suppi.pl/00maciek00" target="_blank"><img width="165" src="https://suppi.pl/api/widget/button.svg?fill=6457FD&textColor=ffffff"/></a>
+
+Dziękuję! ☕
+
+---
+
 ## Licencja
 
 Copyright 2026 Maciej Sikorski — S.M. DIY Home  
@@ -278,6 +288,16 @@ Missing keys fall back to `en.json`. Save files as UTF-8.
 ## Settings
 
 The program stores its settings in `lab_view_settings.json` next to `Lab_view.exe`: sort mode, filter, last folder, panel splitter position and language.
+
+---
+
+## Support the project
+
+If you enjoy the game and would like to support its further development, you can buy me a virtual coffee:
+
+<a href="https://suppi.pl/00maciek00" target="_blank"><img width="165" src="https://suppi.pl/api/widget/button.svg?fill=6457FD&textColor=ffffff"/></a>
+
+Thank you! ☕
 
 ---
 
