@@ -1,0 +1,50 @@
+// =============================================================================
+//  Lab_view - Zasoby / Resources
+//  Wersja / Version: 2.5
+//  Licencja / License: Apache 2.0
+//
+//  Menu, skroty klawiszowe i okna sa tworzone w kodzie (Lab_view.cpp),
+//  wiec tu jest tylko ikona i informacje o wersji.
+// =============================================================================
+
+#include <windows.h>
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+// Ikona
+IDI_APPICON ICON "lab_view.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+// Informacje o wersji
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION    VER_MAJOR, VER_MINOR, VER_REVISION, VER_BUILD
+ PRODUCTVERSION VER_MAJOR, VER_MINOR, VER_REVISION, VER_BUILD
+ FILEFLAGSMASK  0x3fL
+#ifdef _DEBUG
+ FILEFLAGS      0x1L
+#else
+ FILEFLAGS      0x0L
+#endif
+ FILEOS         0x40004L
+ FILETYPE       0x1L
+ FILESUBTYPE    0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName",      "Maciej Sikorski"
+            VALUE "FileDescription",  "Lab View - Przegladarka zdjec"
+            VALUE "FileVersion",      "2.5.0.0"
+            VALUE "InternalName",     "Lab_view"
+            VALUE "LegalCopyright",   "Copyright (c) 2026 Maciej Sikorski. Apache 2.0"
+            VALUE "OriginalFilename", "Lab_view.exe"
+            VALUE "ProductName",      "Lab View"
+            VALUE "ProductVersion",   "2.5.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
