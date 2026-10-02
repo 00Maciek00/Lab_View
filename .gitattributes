@@ -1,0 +1,9 @@
+* text=auto
+*.bat text eol=crlf
+*.cpp text
+*.h text
+*.rc text
+*.json text eol=lf
+*.md text
+*.ico binary
+*.png binary
