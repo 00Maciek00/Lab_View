@@ -1,0 +1,48 @@
+# ---- Wyniki kompilacji / Build output ----
+*.exe
+*.obj
+*.res
+*.exp
+*.lib
+*.ilk
+*.pdb
+*.idb
+*.iobj
+*.ipdb
+*.pch
+*.tlog
+*.log
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# ---- Visual Studio ----
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+ipch/
+.vscode/
+
+# ---- Ustawienia użytkownika programu / App user settings ----
+lab_view_settings.json
+
+# ---- System ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---- Pliki tymczasowe / Temp ----
+*.tmp
+*.bak
+*.orig
+*~
